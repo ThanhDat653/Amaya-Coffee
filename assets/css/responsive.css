@@ -1,0 +1,476 @@
+@media (max-width: 1023px) and (min-width: 740px) {
+    #our-coffee .content-box .content-box-item {
+        width: 31%;
+        height: 420px;
+        margin: 0;
+    }
+    
+    .btn {
+        padding: 8px 44px;
+    }
+    
+    #slider .slider-content {
+        width: 100%;
+        top: 90px;
+        margin: 0px;
+        padding: 100px;
+    }   
+    
+    .section-heading {
+        font-size: 40px;
+    }
+    
+    .content-commit-img1,
+    .content-commit-img2,
+    .content-commit-img3 {
+        display: block;
+        opacity: 1;
+        height: 1066px;
+        width: 703px;
+    }
+
+    #interaction .content-box .content-box-item {
+        width: 45%;
+    }
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 1023px) {
+    
+    /* HEADER */
+    
+    #header {
+        padding: 16px 24px 12px;
+    }
+
+    #header .nav {
+        opacity: 1;
+    }   
+    
+    #header .header-btn-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    
+    .nav .left-nav,
+    .nav .right-nav {
+        display: none;
+    }
+    
+    .nav .header-btn-icon:hover {
+        color: var(--main-color);
+    }
+    
+    .header-btn-icon:hover .nav .right-nav {
+        display: block;
+    }
+    
+    /* SLIDER */
+    
+    #slider {
+        overflow: hidden;
+        line-height: 1.2;
+    }
+    
+    #slider .slogan {
+        display: none;
+    }
+    
+    #slider .slider-content p {
+        font-size: 18px;
+    }
+    
+    
+    #slider .slider-content .slider-heading {
+        margin: 0px;
+        font-size: 45px;
+        margin: 15px 0;
+    }
+    
+    
+    .content-section {
+        padding: 0;
+    }
+    
+    
+    .section-sub-heading  {
+        margin: 0px;
+        font-size: 16px;
+        line-height: 1.7;
+        letter-spacing: 1.2px;
+    }
+    
+    #content #our-coffee,
+    #content #interaction,
+    #content #our-commitment {
+        height: auto;
+        width: 100%;
+    }
+    
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    /* OUR COMMITMENT */
+
+    #our-commitment .content-box-item {
+        margin-bottom: 20px;
+    }
+
+    .content-commit-img1,
+    .content-commit-img2,
+    .content-commit-img3 {
+        display: inline-block;
+    }
+    
+    /* OUR COFFEE */ 
+    
+    .content-coffee-img1, 
+    .content-coffee-img2, 
+    .content-coffee-img3 {
+        height: 308px;
+        width: 100%;
+    }
+    
+    #our-coffee .content-box {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+    #our-coffee .content-box .item-content {
+        font-size: 15.5px ;
+    }
+    
+    #our-coffee .content-box-item:hover .coffee-selection {
+        display: none;
+    }
+    
+    #our-coffee .content-box-item:hover .item-content {
+        cursor: pointer;
+        color: var(--main-color);
+        opacity: 1;
+    }
+    
+    /* SPOTLIGHT */
+    
+    /* .col-2 {
+        width: 100%;
+    } */
+
+    #spotlight {
+        position: relative;
+        height: auto;
+        margin-top: 50px;
+    }
+    
+    #spotlight .content-section {
+        z-index: 99;
+        opacity: 1;
+        padding: 0 44px;
+    }
+    
+    #spotlight .spotlight-img {
+        height: 550px;
+    }
+    
+    #spotlight .btn {
+        background-color: var(--white-color);
+        color: black;
+    }
+    
+    /* INTERACTION */
+    
+    #interaction {
+        margin-top: 60px;
+    }
+    
+    #interaction .content-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    
+    .content-box-item .interaction-heading {
+        height: auto;
+    }
+    
+    /* CONTACT */
+
+    #contact {
+        height: 700px;
+    }
+    
+    #contact .content-section .section-sub-heading {
+        display: inline-block;
+        margin: 0;
+    }
+
+    /* FOOTER */
+    
+    #footer {
+        display: flex;
+        justify-content: space-around;
+        height: 250px;
+        margin-top: 50px;
+    }
+    
+    #footer .content-box {
+        flex-direction: row;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+    #footer .content-box .content-box-item {
+        width: 100%;
+    }
+    
+    #footer .footer-section {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .footer-list-icon {
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .footer-icon {
+        padding: 0 5px;
+    }
+    
+    #footer .footer-info {
+        padding: 0;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 739px) {
+ 
+/* HEADER  */
+
+    #header {
+        padding-top: 14px;
+        padding-bottom: 5px;
+    }
+
+    #header .header-btn-icon {
+        font-size: 25px;
+    }
+
+    .logo img {
+        height: 28px;
+        width: 82px;
+    }
+
+/* SLIDER */
+
+    #slider {
+        height: 370px;
+        padding-top: 50px;
+    }
+
+    #slider img {
+        position: absolute;
+        margin-right: 12px;
+        height: 360px;
+        width: 700px;
+    }
+
+    #slider .slider-content {
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        padding: 120px 20px 0;
+    }
+
+    #slider .slider-content p {
+        font-size: 14px;
+    }
+
+    #slider .slider-content .slider-heading {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 7px 40px;
+    }
+
+/*  CONTENT  */
+
+    .content-item {
+        margin-top: 80px;
+        width: 350px;
+    }
+
+    .content-section {
+        margin: 15px 0 60px;
+    }
+
+    .content-section .section-heading {
+        font-size: 35px;
+    }
+
+    .section-sub-heading {
+        font-size: 14px;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+
+    .content-box .content-box-item {
+        width: 100%;
+    }
+
+/* COMMITMENT */
+
+    .content-commit-img1, 
+    .content-commit-img2, 
+    .content-commit-img3 {
+        height: 530px;
+        width: 100%;
+
+    }
+
+    #our-commitment .item-content {
+        padding: 20px;
+    }
+
+/* COFFEE */
+
+    #our-coffee .content-box {
+        flex-direction: column;
+    }
+
+    .content-coffee-img1, 
+    .content-coffee-img2, 
+    .content-coffee-img3 {
+        height: 500px;
+        width: 100%;
+    }
+
+    #our-coffee .content-box .item-content {
+        font-size: 13px;
+    }
+
+/* SPOTLIGHT */
+
+    #spotlight {
+        display: block;
+        height: 550px;
+    }
+
+    #spotlight .spotlight-img,
+    #spotlight .content-section {
+        width: 100%;
+        position: absolute;
+    }
+
+    #spotlight .content-section {
+        top: 100px;
+        text-shadow: 0 0 100px #000;
+    }
+
+    #spotlight .spotlight-img {
+        opacity: 0.6;
+    }
+
+/* INTERACTION */
+
+    #interaction {
+        padding: 0;
+    }
+
+    #interaction .content-box .content-box-item {
+        margin-bottom: 50px;
+    }
+
+/* CONTACT */
+
+    #contact {
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    #contact .contact-img {
+        width: 100%;
+    }
+
+    #contact .content-section {
+        padding: 0 40px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #contact .contact-btn {
+        display: flex;
+        flex-direction: column;
+        font-size: 15.5px;
+    }
+
+    #contact .contact-btn .btn {
+        margin: 20px 60px 0;
+    }
+
+    #contact .contact-btn .btn-booking {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    #contact .content-section .below-section-heading {
+        margin: 28px 0;
+    }
+
+    #contact .content-section .time-open {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .time {
+        margin: 2px 10px;
+    }
+
+/* FOOTER */
+
+    #footer {
+        height: 150px;
+        margin: 0;
+        background-color: #111;
+        box-shadow: rgb(0 0 0 / 35%) 0px 3px 20px 50px inset;
+    }
+
+    #footer .content-box .content-box-item {
+        display: none;
+    }
+
+    #footer .content-box .content-box-item.social {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .footer-section .footer-section-heading {
+        font-size: 14px ;
+    }
+
+    .footer-list-icon {
+        font-size: 15px;
+    }
+
+    #footer .logo,
+    #footer .footer-right-info {
+        display: none;
+    }
+
+    #footer .footer-left-info {
+        font-size: 8px;
+    }
+
+}

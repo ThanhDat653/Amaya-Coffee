@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --subtitle-color: #a9a9ac;
+    --main-color: #bd9576;
+}
+
+html {
+    font-family: 'roboto', sans-serif;
+}
